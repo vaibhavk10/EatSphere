@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#121212"
     tools:context=".Fragment.HomeFragment">
 
     <androidx.cardview.widget.CardView
@@ -46,6 +47,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Popular"
+        android:textColor="@color/white"
+        android:fontFamily="@font/latobold"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
@@ -60,6 +64,8 @@
         android:gravity="center"
         android:text="View Menu"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

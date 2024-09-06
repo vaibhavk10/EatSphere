@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Cart"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,11 +30,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edittextshape"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

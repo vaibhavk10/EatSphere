@@ -41,7 +41,10 @@ class CartAdapter(
                     increaseQuantity(position)
                 }
                 deletebutton.setOnClickListener {
-                    deleteItem(position)
+                    val itemPosition = adapterPosition
+                    if (itemPosition != RecyclerView.NO_POSITION) {
+                        deleteItem(position)
+                    }
                 }
             }
         }
