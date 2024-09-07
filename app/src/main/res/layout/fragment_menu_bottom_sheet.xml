@@ -7,12 +7,13 @@
     tools:context=".MenuBottomSheetFragment">
 
     <ImageButton
+        android:id="@+id/buttonBack"
         android:layout_width="24dp"
         android:layout_height="24sp"
         android:background="@android:color/transparent"
         android:src="@drawable/arrowleft"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
 
     <TextView
         android:layout_marginTop="8dp"
