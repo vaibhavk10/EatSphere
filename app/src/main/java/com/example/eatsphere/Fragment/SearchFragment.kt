@@ -3,8 +3,8 @@ package com.example.eatsphere.Fragment
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import androidx.appcompat.widget.SearchView  // Correct import
+import android.view.ViewGroup import android.widget.SearchView
+
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.eatsphere.R
@@ -51,7 +51,7 @@ class SearchFragment : Fragment() {
     }
 
     private fun setupSearchView() {
-        binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+     binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
                 filterMenuItems(query)
                 return true
