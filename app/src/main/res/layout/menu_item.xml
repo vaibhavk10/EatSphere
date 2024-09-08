@@ -8,12 +8,12 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
+        android:layout_width="323dp"
         android:layout_height="87dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/itemcolor"
         app:cardCornerRadius="22dp"
         app:cardElevation="4dp"
@@ -43,6 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
+                android:fontFamily="@font/latobold"
                 android:text="Food Name"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="@+id/menuImage"
@@ -52,10 +53,10 @@
 
             <TextView
                 android:id="@+id/menuAddToCart"
-                android:layout_width="100dp"
-                android:layout_height="20dp"
+                android:layout_width="90dp"
+                android:layout_height="22dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/greenbuttongradient"
+                android:background="@drawable/blacktextview"
                 android:elevation="5dp"
                 android:gravity="center"
                 android:text="Add to Cart"

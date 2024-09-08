@@ -42,6 +42,7 @@
                 android:layout_marginLeft="16dp"
                 android:text="TextView"
                 android:textColor="@color/black"
+                android:fontFamily="@font/latobold"
                 app:layout_constraintBottom_toTopOf="@+id/CartitemPrice"
                 app:layout_constraintStart_toEndOf="@+id/cartImage"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -52,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:text="TextView"
+                android:fontFamily="@font/latobold"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/cartImage"

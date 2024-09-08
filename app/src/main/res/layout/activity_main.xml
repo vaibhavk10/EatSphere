@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#121212"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
 
@@ -24,8 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
-        android:text="Explore Your Favourite Food"
-        android:textColor="@color/white"
+        android:text="Explore Your Favourite\n Food"
+        android:textColor="@color/black"
+        android:fontFamily="@font/latobold"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

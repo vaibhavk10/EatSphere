@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Search"
+        android:textColor="@color/black"
+        android:fontFamily="@font/latobold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,12 +26,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/whitebutton"
+        android:background="@drawable/blackgradient"
         android:gravity="center"
         android:iconifiedByDefault="false"
         android:queryBackground="@android:color/transparent"
         android:queryHint="Search your Favourite Food here"
         android:searchIcon="@drawable/search"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -50,6 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Menu"
+        android:fontFamily="@font/latobold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
