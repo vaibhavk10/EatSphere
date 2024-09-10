@@ -30,7 +30,7 @@ class MenuBottomSheetFragment : BottomSheetDialogFragment(){
         val menuImage = listOf(R.drawable.aaloparatha, R.drawable.appam, R.drawable.applepie, R.drawable.bbqribs, R.drawable.beefwelington, R.drawable.buscheta, R.drawable.butterchicken, R.drawable.caesarsalad, R.drawable.chickenburger, R.drawable.chickenwings, R.drawable.cholebhature, R.drawable.cremebrule, R.drawable.dalmakhni, R.drawable.dosa, R.drawable.frenchfries, R.drawable.friedchicken, R.drawable.grilledchicken, R.drawable.gulabjamun, R.drawable.hotdog, R.drawable.kadhaichicken, R.drawable.lasgna, R.drawable.lassi, R.drawable.macandcheese, R.drawable.mashedpotatoes, R.drawable.meduvada, R.drawable.moussaka, R.drawable.mysorepak, R.drawable.naan, R.drawable.neerdosa, R.drawable.palakpanner, R.drawable.pancakes, R.drawable.paneerbuttermasala, R.drawable.pasta, R.drawable.pesarattu, R.drawable.pongal, R.drawable.quiche, R.drawable.rasam, R.drawable.risotto, R.drawable.roganjosh, R.drawable.sambharrice, R.drawable.steak, R.drawable.stuffedpepper, R.drawable.tandorichicken, R.drawable.tiramisu, R.drawable.uttapam, R.drawable.vada, R.drawable.vegburger)
 
 
-        val adapter = MenuAdapter(ArrayList(menuFoodName), ArrayList(menuItemPrice), ArrayList(menuImage))
+        val adapter = MenuAdapter(ArrayList(menuFoodName), ArrayList(menuItemPrice), ArrayList(menuImage),requireContext())
         binding.menuRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.menuRecyclerView.adapter = adapter
 

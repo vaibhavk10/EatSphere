@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MenuBottomSheetFragment">
 
     <ImageButton
@@ -11,7 +12,7 @@
         android:layout_width="24dp"
         android:layout_height="24sp"
         android:background="@android:color/transparent"
-        android:src="@drawable/arrowleft"
+        android:src="@drawable/leftarrowsv"
         android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"/>
 
@@ -21,7 +22,7 @@
         android:layout_height="match_parent"
         android:textSize="24sp"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:fontFamily="@font/latobold"
         android:text="Menu" />
 

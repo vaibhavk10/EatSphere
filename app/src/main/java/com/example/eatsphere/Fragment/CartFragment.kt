@@ -1,11 +1,14 @@
 package com.example.eatsphere.Fragment
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.eatsphere.CongratsBottomSheet
+import com.example.eatsphere.PayOutActivity
 import com.example.eatsphere.R
 import com.example.eatsphere.adaptar.CartAdapter
 import com.example.eatsphere.databinding.FragmentCartBinding
@@ -30,6 +33,13 @@ class CartFragment : Fragment() {
         val adapter = CartAdapter(ArrayList(cartFoodName), ArrayList(cartItemPrice), ArrayList(cartImage))
         binding.cartRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.cartRecyclerView.adapter = adapter
+
+
+        binding.proceedButton.setOnClickListener {
+            val intent = Intent(requireContext(),PayOutActivity::class.java)
+            startActivity(intent)
+        }
+
 
         return binding.root
 

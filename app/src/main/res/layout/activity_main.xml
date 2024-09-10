@@ -15,6 +15,11 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:itemBackground="@color/white"
+        app:elevation="10dp"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:itemRippleColor="@color/light_grey"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/menu" />
 
