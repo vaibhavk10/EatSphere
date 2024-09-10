@@ -17,6 +17,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:fontFamily="@font/latobold"
             android:text="Recent Buy"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +38,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/whitebutton">
+                android:background="@drawable/itemcolor">
 
                 <ImageView
                     android:id="@+id/buyAgainFoodImage"
@@ -96,7 +97,8 @@
             android:textColor="@color/black"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/latobold"
-            android:text="Recnet Buy"
+            android:textSize="20sp"
+            android:text="Wanna Buy Again?"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
