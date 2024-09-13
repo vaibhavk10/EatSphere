@@ -45,23 +45,23 @@
 <table>
   <tr>
     <th>Home Screen</th>
-    <th>Restaurant Selection</th>
-    <th>Order Summary</th>
+    <th>Menu</th>
+    <th>Cart</th>
   </tr>
   <tr>
     <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg1.jpg" alt="Home Screen" width="200"></td>
-    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg2.jpg" alt="Restaurant Selection" width="200"></td>
-    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg3.jpg" alt="Order Summary" width="200"></td>
+    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg2.jpg" alt="Menu" width="200"></td>
+    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg3.jpg" alt="Cart" width="200"></td>
   </tr>
   <tr>
-    <th>Order Tracking</th>
-    <th>Payment Integration</th>
-    <th>Profile Page</th>
+    <th>Order Placing</th>
+    <th>Order Placed</th>
+    <th>Search Section</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg4.jpg" alt="Order Tracking" width="200"></td>
-    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg5.jpg" alt="Payment Integration" width="200"></td>
-    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg6.jpg" alt="Profile Page" width="200"></td>
+    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg4.jpg" alt="Order Placing" width="200"></td>
+    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg5.jpg" alt="Order Placed" width="200"></td>
+    <td><img src="https://github.com/vaibhavk10/EatSphere/blob/main/app/src/main/res/drawable/eatsphereimg6.jpg" alt="Search Section" width="200"></td>
   </tr>
 </table>
 
